@@ -1,0 +1,29 @@
+.createBookingBtn {
+    background-color: #00db3b;
+    color: white;
+    border-radius: 10px;
+    border: 0;
+    height: 50px;
+    width: 220px;
+    font-size: 20px;
+    font-family: "MontserratBold", sans-serif;
+}
+
+.backBtn {
+    background-color: #ff5542;
+    color: white;
+    border-radius: 10px;
+    border: 0;
+    height: 50px;
+    width: 110px;
+    font-size: 20px;
+    font-family: "MontserratBold", sans-serif;
+}
+
+h3 {
+    font-family: "MontserratBold", sans-serif;
+}
+
+body {
+    font-family: "MontserratRegular", sans-serif;
+}

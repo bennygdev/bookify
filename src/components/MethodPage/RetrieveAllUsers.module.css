@@ -1,0 +1,84 @@
+.backBtn {
+    background-color: #ff5542;
+    color: white;
+    border-radius: 10px;
+    border: 0;
+    height: 50px;
+    width: 110px;
+    font-size: 20px;
+    font-family: "MontserratBold", sans-serif;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: center;
+}
+
+.user__container {
+    width: 400px;
+    background-color: #fafafa;
+    position: relative;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1.4px solid #dedede;
+    transition: 250ms ease;
+    text-decoration: none;
+}
+
+.user__container:hover {
+    border: 1.4px solid var(--primary-blue);
+    transition: 250ms ease;
+    text-decoration: none;
+}
+
+.user__container h4 {
+    margin: 0;
+    padding-bottom: 10px;
+    font-family: system-ui, sans-serif;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+}
+
+.user__container p {
+    margin: 0;
+    padding-bottom: 20px;
+    color: black;
+    text-decoration: none;
+}
+
+h3 {
+    font-family: "MontserratBold", sans-serif;
+}
+
+body {
+    font-family: "MontserratRegular", sans-serif;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.pagination button {
+    background-color: #40A4FB;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    margin: 0 5px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.pagination button.active {
+    background-color: #ff5542;
+}
+
+
+.pagination button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}

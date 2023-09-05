@@ -1,0 +1,58 @@
+p {
+    font-family: "MontserratRegular", sans-serif;
+}
+
+.getStartedBtn {
+    background-color: #0fafff;
+    color: white;
+    border-radius: 40px;
+    border: 1px solid black;
+    height: 50px;
+    width: 150px;
+    font-size: 19px;
+    font-family: "MontserratBold", sans-serif;
+}
+
+.getStartedBtn2 {
+    background-color: #ff6f0f;
+    color: white;
+    border-radius: 40px;
+    border: 1px solid black;
+    height: 80px;
+    width: 375px;
+    font-size: 30px;
+    font-family: "MontserratBold", sans-serif;
+}
+
+.assurance {
+    width: 70%;
+}
+
+.box {
+    background-color: #fafafa;
+    height: 260px;
+    width: 400px;
+    border: 1px solid #ccc;
+    margin: 10px;
+    border-radius: 20px;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.box:hover {
+    background-color: #fafafa;
+    height: 260px;
+    width: 400px;
+    border: 1px solid #ccc;
+    margin: 10px;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 8px 8px #0073bf;
+}
+ 
+h5 {
+    font-family: "MontserratBold", sans-serif;
+}

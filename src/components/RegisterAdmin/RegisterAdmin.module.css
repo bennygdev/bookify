@@ -1,0 +1,29 @@
+.adminRegister__container {
+    display:flex; flex-direction:column; justify-content:center;
+    min-height:80vh;
+}
+
+.username, .email, .password {
+    font-family: "MontserratSemibold", sans-serif;
+}
+
+p {
+    font-family: "MontserratSemibold", sans-serif;
+}
+
+.adminRegister__btn {
+    background-color: #ff5542;
+    color: white;
+    border-radius: 10px;
+    border: 0;
+    height: 50px;
+    width: 150px;
+    font-size: 20px;
+    font-family: "MontserratBold", sans-serif;
+}
+
+.passwordDisplay {
+    height: 30px;
+    width: 40px;
+    padding: 5px 5px 5px 5px;
+}

@@ -1,0 +1,51 @@
+@font-face {
+  font-family: "MontserratRegular";
+  src: url(assets/fonts/Montserrat-Regular.ttf);
+}
+
+@font-face {
+  font-family: "MontserratSemibold";
+  src: url(assets/fonts/Montserrat-SemiBold.ttf);
+}
+
+@font-face {
+  font-family: "MontserratBold";
+  src: url(assets/fonts/Montserrat-Bold.ttf);
+}
+
+@font-face {
+  font-family: "MontserratBlack";
+  src: url(assets/fonts/Montserrat-Black.ttf);
+}
+
+body {
+  padding: 20px 20px 20px 20px;
+}
+
+h1 {
+  font-family: "MontserratBold", sans-serif;
+}
+
+.loadingIndicator {
+  display: grid;
+  place-items: center;
+}
+
+.spinner {
+  margin: 50px 0;
+  border: 1rem solid #ebe7e7;
+  border-top: 16px solid #0073bf;
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  animation: loop 1.2s infinite linear;
+}
+
+@keyframes loop {
+  from {
+      transform: rotate(0deg);
+  }
+  to {
+      transform: rotate(360deg);
+  }
+}

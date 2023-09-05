@@ -1,0 +1,78 @@
+p {
+    font-family: "MontserratRegular", sans-serif;
+}
+
+.loginBtn {
+    background-color: #0fafff;
+    color: white;
+    border-radius: 40px;
+    border: 1px solid black;
+    height: 50px;
+    width: 150px;
+    font-size: 19px;
+    font-family: "MontserratBold", sans-serif;
+    transition: 200ms;
+}
+
+.loginBtn:hover {
+    background-color: #21b5ff;
+    color: white;
+    border-radius: 40px;
+    border: 1px solid black;
+    height: 50px;
+    width: 150px;
+    font-size: 19px;
+    font-family: "MontserratBold", sans-serif;
+    transition: 200ms;
+}
+
+.registerBtn {
+    background-color: transparent;
+    color: #f5b042;
+    border-radius: 40px;
+    border: 1px solid #f5b042;
+    height: 50px;
+    width: 150px;
+    font-size: 19px;
+    font-family: "MontserratBold", sans-serif;
+}
+
+.registerBtn:hover {
+    background-color: #fafafa;
+    color: #f5b042;
+    border-radius: 40px;
+    border: 1px solid #f5b042;
+    height: 50px;
+    width: 150px;
+    font-size: 19px;
+    font-family: "MontserratBold", sans-serif;
+}
+
+.logoutBtn {
+    background-color: #ff6633;
+    color: white;
+    border-radius: 40px;
+    border: 1px solid black;
+    height: 50px;
+    width: 150px;
+    font-size: 19px;
+    font-family: "MontserratBold", sans-serif;
+    transition: 200ms;
+}
+
+.logoutBtn:hover {
+    background-color: #ff8a63;
+    color: white;
+    border-radius: 40px;
+    border: 1px solid black;
+    height: 50px;
+    width: 150px;
+    font-size: 19px;
+    font-family: "MontserratBold", sans-serif;
+    transition: 200ms;
+}
+
+.bookifyText {
+    font-family: "MontserratSemibold", sans-serif;
+    font-size: 30px;
+}

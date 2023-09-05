@@ -1,0 +1,29 @@
+.login__container {
+    display:flex; flex-direction:column; justify-content:center;
+    min-height:80vh;
+}
+
+.username, .password {
+    font-family: "MontserratSemibold", sans-serif;
+}
+
+p {
+    font-family: "MontserratSemiBold", sans-serif;
+}
+
+.login__btn {
+    background-color: #0fafff;
+    color: white;
+    border-radius: 10px;
+    border: 0;
+    height: 50px;
+    width: 150px;
+    font-size: 20px;
+    font-family: "MontserratBold", sans-serif;
+}
+
+.passwordDisplay {
+    height: 30px;
+    width: 40px;
+    padding: 5px 5px 5px 5px;
+}
